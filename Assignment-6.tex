@@ -1,0 +1,88 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{tkz-euclide}
+\usepackage{booktabs}
+\title{Assignment-6\\ Latex Report}
+\author{Fuzayil Bin Afzal Mir}
+\date{21/01/2021}
+\begin{document}
+	\maketitle
+	
+
+ \newpage
+ \begin{itemize}
+	    \item \Large\textbf{Exercise 2.29}
+	\end{itemize}
+	\section{Construct PQRS where PQ = 4,QR = 6,
+	RS = 5,PS = 5.5 and PR = 7.}\\
+    	
+\subsection{Solution} \\
+It is given that,
+ PQ = 4,QR = 6,RS = 5,PS = 5.5 and PR = 7.\\
+ 
+ From the given values we conclude PQRS is an quadrilateral with diagonal PR.\\
+ 
+  
+  
+  
+\textbf{Figure of quadrilateral PQRS.}
+
+\begin{tikzpicture}[scale=1]
+    \coordinate[label=right:$S$] (S) at (5,0);
+    \coordinate[label=left:$R$] (R) at (0,0);
+    \coordinate[label=above:$Q$] (Q) at (0.35,6);
+    \coordinate[label=above:$P$] (P) at (4.25,5.5);
+    
+    \draw (P)--node[above] {$\textrm{4}$}
+    (Q)--node[left] {$\textrm{6}$}
+    (R)--node[below] {$\textrm{5}$}
+    (S)--node[right] {$\textrm{5.5}$}
+    (P)--node[above] {$\textrm{7}$}(R)
+    \end{tikzpicture}\\
+    \textbf{\underline{Note:}} {Figure generated using latex.}\\$$$$\\
+
+\subsection{Figure of quadrilateral PQRS}
+\begin{figure}
+    \centering
+    \includegraphics[width=10cm]{EX-2.29.png}
+    \caption{Generated using python}
+    \label{fig:2}
+\end{figure}
+
+\\
+
+  \textbf{Download the python code used for generating the figure from here:}
+ 
+ \fbox{
+  \begin{lstlisting}
+  https://github.com/FuzayilMir/Assignment-6/blob/main/EX-2.29.py
+ \end{lstlisting}
+ 
+ 
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
